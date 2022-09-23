@@ -8,7 +8,8 @@
 <body>
 <!--HEADER-->
 <header class="main-header">    
-    <h1>Arionna Nielson</h1>    
+    <span data-tooltip="Fun Fact: My name is from an episode of Star Trek: The Next Generation"><img class="ari-image" src="./assets/images/AriSelfPortrait.jpg" alt="Arionna Self Portrait"></span>
+    <h1>Arionna Nielson</h1>
     <nav class="nav main-nav">
         <ul>
         <li><a href="#about-me">ABOUT</a></li>
@@ -20,28 +21,39 @@
 </header>
 <!--MAIN CONTENT-->
 <main class="content-section container">
-<section id="about-me">
-    <span data-tooltip="Fun Fact: My name is from en episode of Star Trek: The Next Generation"><img class="about-ari-image" src="./assets/AriSelfPortrait.jpg" alt="Arionna Self Portrait"></span>
-    <h2>ABOUT ME</h2>    
-    <p>I'm currently studying to become a programmer with University of Utah's Coding Bootcamp.</p>
-    <p>I have experience working with HTML, CSS, JavaScript, & jQuery as an entry level developer. One of my hobbies is learning different languages & I know basic Norwegian & Japanese.</p>    
-</section>
-<hr>
-<section id="portfolio">    
-    <h2>PORTFOLIO</h2> 
-    <!--Need to add 'portfolio' images for pending projects / First image needs to be bigger than the other images-->   
-    <!--Link images to the deployed application ??-->   
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin pellentesque. Nunc posuere purus rhoncus pulvinar aliquam. Ut aliquet tristique nisl vitae volutpat. Nulla aliquet porttitor venenatis. Donec a dui et dui fringilla consectetur id nec massa. Aliquam erat volutpat. Sed ut dui ut lacus dictum fermentum vel tincidunt neque. Sed sed lacinia lectus. Duis sit amet sodales felis. Duis nunc eros, mattis at dui ac, convallis semper risus. In adipiscing ultrices tellus, in suscipit massa vehicula eu.</p>
-</section>
+    <section class="about-me-content">
+        <section id="about-me"><h2>ABOUT ME</h2></section>
+        <section>
+            <p>I'm currently studying to become a programmer with University of Utah's Coding Bootcamp.</p>
+            <p>I have experience working with HTML, CSS, JavaScript, & jQuery as an entry level developer. One of my hobbies is learning different languages & I know basic Norwegian & Japanese.</p>
+         </section>         
+    </section>
+    <hr>
+    <section class="work-section-content">
+        <section id="portfolio"><h2>PORTFOLIO</h2></section>
+        <div class="main-content-div">        
+            <section class="work-content">
+               <!--Need to add 'portfolio' images for pending projects / First image needs to be bigger than the other images-->
+               <!--Link images to the deployed application ??-->
+               <div><p>PROJECT 1</p></div>
+               <div><p>PROJECT 2</p></div>
+               <div><p>PROJECT 3</p></div>
+               <div><p>PROJECT 4</p></div>
+               <div><p>PROJECT 5</p></div>
+               <div><p>PROJECT 6</p></div>
+           </section>
+       </div>
+    </section>
 </main>
 <!--FOOTER-->
 <footer id="contact" class="main-footer">
     <section class="container main-footer-container">
         <h3>CONTACT</h3>
         <ul class="nav footer-nav">
-            <li><a href="https://github.com/arinielson"><img src="./assets/icons8-github-48.png" alt="GitHub"></a></li>
-            <li><a href="https://www.linkedin.com/"><img src="./assets/icons8-linkedin-48.png" alt="LinkedIn"></a></li>
-            <li><a href="mailto:an-nielson@hotmail.com"><img src="./assets/icons8-secured-letter-64.png" alt="Email" width="48px" height="48px"></a></li>            
+            <li>PH: 555-555-5555</li>
+            <li><a href="https://github.com/arinielson"><img src="./assets/images/icons8-github-48.png" alt="GitHub"></a></li>
+            <li><a href="https://www.linkedin.com/"><img src="./assets/images/icons8-linkedin-48.png" alt="LinkedIn"></a></li>
+            <li><a href="mailto:test@mail.com"><img src="./assets/images/icons8-secured-letter-64.png" alt="Email" width="48px" height="48px"></a></li>            
         </ul>
     </section>
 </footer>

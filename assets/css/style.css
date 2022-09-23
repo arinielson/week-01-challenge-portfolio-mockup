@@ -9,11 +9,10 @@ html, body {
 }
 
 /* Navigation Links */
-.main-nav {
-    text-align: center;
-    font-size: 20px;    
+.main-nav {    
+    font-size: 30px;    
     border-bottom: 1.5px solid white;    
-    padding: 0 .5%;
+    padding: 0 25px;    
 }
 
 .nav ul {
@@ -38,65 +37,34 @@ html, body {
 
 /* Header */
 .main-header {
+    display: flex;
+    align-items: center;
     background-color: grey;
-    background-blend-mode: multiply;
-    background-size: cover;
-    padding-bottom: 10px;    
-    margin: 0 auto;    
+    background-blend-mode: multiply;    
+    padding-bottom: 5px;        
 }
 
-.main-header h1 {
-    text-align: center;
+.main-header h1 {    
+    text-align: left;    
     margin: 0;    
     color: white;
     font-weight: normal; 
     font-size: 96px;
-    text-shadow: 3px 3px black;
+    text-shadow: 3px 3px black;    
 }
 
-.ari-site-name {
-    text-align: center;
-    margin: 0;
-    font-size: 48px;
-    color: white;
-    font-weight: normal;    
-}
-
-.ari-site-name-lg {
-    font-size: 96px;
-    text-shadow: 3px 3px black;
-}
-
-/* Main Content */
-.content-section {
-    margin: 16px;    
-}
-
-.content-section p {
-    font-size: 21.6px;
-}
-
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 0 24px;    
-}
-
-.content-section h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    color: black;
-    text-align: left;    
-    font-size: 40px;
+.main-header nav {
+    flex-grow: 1;
+    text-align: end;
 }
 
 /* Image */
-.about-ari-image {
-    float: right;
-    height: 250px;
-    width: 187px;
-    margin: 5px;
-    border-radius: 50%;       
+.ari-image {
+    float: left;
+    height: 150px;
+    width: 112px;
+    margin: 5px 15px;
+    border-radius: 35%;       
 }
 
 span[data-tooltip] {
@@ -107,8 +75,8 @@ span[data-tooltip] {
 span[data-tooltip]:hover::after {
     content: attr(data-tooltip);
     position: absolute;
-    top: 10px;
-    left: 950px;    
+    top: 125px;
+    left: 150px;    
     background-color: grey;
     color: white;
     border-radius: 35%;
@@ -116,6 +84,47 @@ span[data-tooltip]:hover::after {
     padding: 20px;
     text-align: center;
     border: 1px solid black;
+}
+
+/* Main Content */
+.content-section {    
+    margin: 16px;    
+}
+
+.content-section p {
+    font-size: 20px;
+}
+
+.container {    
+    margin: 0 auto;
+    padding: 0 24px;    
+}
+
+.content-section h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: black;
+    text-align: left;    
+    font-size: 40px;    
+}
+
+.main-content-div {
+    max-width: 1200px;
+    margin: 0 auto;    
+    padding: 5px;
+}
+
+.about-me-content {    
+    display: flex;
+}
+
+.work-section-content {
+    display: flex;
+}
+
+.work-content {
+    display: flex;
+    justify-content: space-around;        
 }
 
 /* Footer */
@@ -142,11 +151,12 @@ span[data-tooltip]:hover::after {
 /* Footer Navigation */
 .main-footer-container ul {
     flex-grow: 1;
-    text-align: end;
+    text-align: left;
 }
 
 .footer-nav li {
     padding: 0 8px;
+    font-size: 20px;    
 }
 
 .footer-nav img {
