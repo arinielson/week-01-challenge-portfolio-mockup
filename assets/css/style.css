@@ -70,18 +70,22 @@ html, body {
 
 .div-img-lg {
     margin: 5px;
-    width: 1200px;
-    height: 886px;
+    border: 6px solid gray;
+    width: 1140px;
+    height: 842px;
 }
 
 .div-img {
-    margin: 5px;
+    margin: 20px;
+    border: 6px solid gray;
     width: 541px;
     height: 400px;
 }
 
 .div-img2 {
-    margin: 5px;
+    margin: 20px;
+    border: 6px solid gray;
+    padding: 0 70.5px;    
     width: 400px;
     height: 400px;
 }

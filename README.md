@@ -51,6 +51,8 @@ University of Utah Coding Bootcamp
 
 icons8 for icon images: https://icons8.com/icons/set/website
 
+Coming Soon images: https://www.freepik.com/free-vector/coming-soon-design_951588.htm#query=website%20under%20construction&position=3&from_view=keyword
+
 
 ## License
 
