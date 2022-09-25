@@ -87,19 +87,11 @@ p {
     border-right: none;
 }
 
-.ari-image {
-    float: left;
-    height: 150px;
-    width: 112px;
-    margin: 5px 15px;
-    border-radius: 35%;       
-} 
-
 .div-img-lg {
     margin: 5px 5px 5px 20px;
     border: 6px solid #96C893;
     width: 1135px;
-    height: 842px;
+    height: 838px;
 }
 
 .div-img-lg:hover {
@@ -225,18 +217,74 @@ h3 {
     height: 48px;
 }
 
+@media screen and (max-width: 1545px) {
+    .div-img-lg {
+        margin: 20px;
+        border: 6px solid #96C893;
+        width: 541px;
+        height: 400px;
+    }
+    
+    .work-img-div-lg {
+        position: relative;
+    }
+    
+    .work-img-div-lg p {
+        position: absolute;
+        margin: 0;
+        top: 335px;
+        right: 423px;
+        font-size: 20px;    
+        text-align: center;
+        padding: 15px;
+        background-color: #96C893;
+        color: black;    
+        border: 6px solid #96C893;
+        border-left: none;
+    }
+}
+
 @media screen and (max-width: 1371px) {
     header,
     nav, .main-section {
       flex-direction: column;
     }    
+
+    .container {
+        margin: 0 100px;        
+    }
     
     .side-section, h2, h3 {
       order: -1;
       text-align: left;      
       border-right: none;
       text-decoration: underline;         
-    }    
+    }  
+    
+    .div-img-lg {
+        margin: 20px;
+        border: 6px solid #96C893;
+        width: 541px;
+        height: 400px;
+    }
+    
+    .work-img-div-lg {
+        position: relative;
+    }
+    
+    .work-img-div-lg p {
+        position: absolute;
+        margin: 0;
+        top: 335px;
+        right: 423px;
+        font-size: 20px;    
+        text-align: center;
+        padding: 15px;
+        background-color: #96C893;
+        color: black;    
+        border: 6px solid #96C893;
+        border-left: none;
+    }
   }
 
   @media screen and (max-width: 1247px) {
@@ -244,6 +292,10 @@ h3 {
     nav, .main-section {
       flex-direction: column;
     }    
+
+    .container {
+        margin: 0 100px;        
+    }
     
     .side-section, h2, h3 {
       order: -1;
@@ -251,4 +303,34 @@ h3 {
       border-right: none;
       text-decoration: underline;                   
     }  
+
+    .work-section {
+        display: flex;
+        flex-wrap: wrap; 
+        width: 700px;        
+    }
+}
+
+@media screen and (max-width: 860px) {
+    header,
+    nav, .main-section {
+      flex-direction: column;
+    }    
+
+    .container {
+        margin: 0;        
+    }
+    
+    .side-section, h2, h3 {
+      order: -1;
+      text-align: left;      
+      border-right: none;
+      text-decoration: underline;                   
+    }  
+
+    .work-section {
+        display: flex;
+        flex-wrap: wrap; 
+        width: 700px;        
+    }
 }
