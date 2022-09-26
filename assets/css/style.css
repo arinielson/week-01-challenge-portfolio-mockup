@@ -66,7 +66,7 @@ p {
     height: 250px;    
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("/assets/images/pexels-photo-164005.jpeg");
+    background-image: url("../images/pexels-photo-164005.jpeg");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -170,6 +170,24 @@ h2 {
     margin: 0;
     top: 335px;
     right: 423px;
+    font-size: 20px;    
+    text-align: center;
+    padding: 15px;
+    background-color: #96C893;
+    color: black;    
+    border: 6px solid #96C893;
+    border-left: none;
+}
+
+.work-img-seo-div {
+    position: relative;    
+}
+
+.work-img-seo-div p {
+    position: absolute;
+    margin: 0;
+    top: 335px;
+    right: 405px;
     font-size: 20px;    
     text-align: center;
     padding: 15px;
